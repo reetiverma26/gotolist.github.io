@@ -1,0 +1,116 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: serif;
+	font-size: 40px;
+	margin-bottom: 30px;
+    margin-left: -50px;
+    color: #000000;
+    text-transform: capitalize;
+}
+body{
+    height: 100vh;
+    background: linear-gradient( 180deg, #d8700f, #f54e07 );
+}
+.container{
+    margin: 0 auto;
+    width: 35%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+    text-align: center;
+}
+#newtask{
+    position: relative;
+    background-color: #ffffff;
+    padding: 46px 28px;
+    border-radius: 0px;
+    box-shadow: 0 15px 30px rgba(78, 32, 32, 0.3);
+}
+#newtask input{
+    width: 70%;
+    width: 70%;
+    height: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border: 5px solid #ca5bf3;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+#newtask input:focus{
+    outline: none;
+    border-color: #ec5269;
+}
+
+#newtask button{
+    text-decoration: wavy;
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 0px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #8052ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    margin-left: 10px;
+    padding: 10px;
+}
+#tasks{
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 0px;
+    border-radius: 0px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    width: 100%;
+    position: relative;
+}
+.task{
+    background-color: #f17a7a;
+    border-radius: 10px;
+    border-color: #fb6565;
+    height: 50px;
+    padding: 15px 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.task span{
+    text-decoration: solid;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+.task button{
+    background: transparent ;
+    position: static;
+    color: #000;
+    height: 100%;
+    width: 45px;
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+    align-items: center;
+}
+.completed{
+    text-decoration: line-through;
+}
